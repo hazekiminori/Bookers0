@@ -1,0 +1,6 @@
+<%= form_with model: @book, url: '/top', method: :post do |f| %>
+<h1>ようこそBookersへ！</h1>
+<p>Bookersでは、さまざまな書籍に関するあなたの意見や</p>
+<p>印象を共有し、交換することができます。</p>
+<%= f.submit 'start' %>
+<% end %>
